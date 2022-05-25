@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "excel4node": "^1.7.2",
+    "mysql2": "^2.3.3",
+    "node-cron": "^3.0.0",
+    "node-fetch": "^3.2.4",
+    "sequelize": "^6.20.0",
+    "telegraf": "^4.8.2",
+    "uuid": "^8.3.2"
+  },
+  "name": "pvzparser",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
